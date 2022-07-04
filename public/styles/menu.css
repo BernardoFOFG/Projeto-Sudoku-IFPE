@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container img {
+  width: 100px;
+  height: 100px;
+}
+.menu h1 {
+  font-size: 36px;
+  font-family: "Bebas Neue", cursive !important;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(165, 223, 170, 0.5);
+  width: 500px;
+  height: 500px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  gap: 7px;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
+}
+.buttons {
+  display: flex;
+  gap: 9px;
+}
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  transition: 0.5s;
+  background-color: #81a140;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+.status:hover {
+  background-color: #617b30;
+  cursor: pointer;
+}
