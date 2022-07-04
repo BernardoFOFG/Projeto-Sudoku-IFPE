@@ -10,7 +10,7 @@
 
 <!-- HTML -->
 {#if $status === "menu"}
-  <Ajuda />
+  <Menu />
 {:else if $status === "jogar"}
   <Jogar />
 {:else if $status === "sobre"}
