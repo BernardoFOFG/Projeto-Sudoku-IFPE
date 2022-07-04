@@ -3,19 +3,18 @@
   import Start from "./Start.svelte";
 </script>
 
+<!-- HTML -->
 <svelte:head>
   <link rel="stylesheet" href="../../styles/ajuda.css" />
 </svelte:head>
-
-<!-- HTML -->
 <main>
   <header>
-    <img src="https://i.ibb.co/s5BDp2R/logo-sudoku.png" alt="Sudoku Logo" />
-    <h1>Projeto SUDOKU</h1>
     <img
       src="https://ingresso.ifpe.edu.br/static/img/ifpe-logo.svg"
       alt="IFPE Logo"
     />
+    <h1>Projeto SUDOKU</h1>
+    <img src="https://i.ibb.co/s5BDp2R/logo-sudoku.png" alt="Sudoku Logo" />
   </header>
   <section class="help__player">
     <details open>
