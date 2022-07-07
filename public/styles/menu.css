@@ -10,8 +10,8 @@
   height: 150px;
 }
 .menu h1 {
-  font-size: 42px;
-  font-family: 'Finlandica', sans-serif !important;
+  font-size: 72px;
+  font-family: 'Karantina', cursive !important;
   text-align: center;
 }
 .box {
@@ -19,8 +19,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: rgb(165, 223, 170, 0.5);
-  width: 500px;
+  background: #292721c2;
+  width: 800px;
   height: 500px;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -32,7 +32,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 14px;
+  gap: 7rem;
+}
+.status img {
+  width: 16px;
+  height: 16px;
 }
 .buttons {
   display: flex;
@@ -42,14 +46,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
+  width: 130px;
+  padding: 7px;
   height: 40px;
   transition: 0.5s;
-  background-color: #81a140;
+  background-color: #292721;
   font-size: 16px;
+  color: white;
   font-weight: 500;
   border: 2px solid black;
   border-radius: 0.5rem;
+  gap: 7px;
 }
 .status:hover {
   background-color: #617b30;
