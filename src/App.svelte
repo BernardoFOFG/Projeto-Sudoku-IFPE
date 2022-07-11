@@ -1,6 +1,6 @@
 <!-- Script -->
 <script>
-  import Jogar from "./components/Jogar.svelte";
+  import Modo from "./components/Modo.svelte";
   import Sobre from "./components/Sobre.svelte";
   import Ajuda from "./components/Ajuda.svelte";
   import Menu from "./components/Menu.svelte";
@@ -12,7 +12,7 @@
 {#if $status === "menu"}
   <Menu />
 {:else if $status === "jogar"}
-  <Jogar />
+  <Modo />
 {:else if $status === "sobre"}
   <Sobre />
 {:else if $status === "ajuda"}
