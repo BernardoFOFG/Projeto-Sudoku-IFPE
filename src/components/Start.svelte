@@ -14,17 +14,18 @@
     justify-content: center;
     width: 160px;
     height: 60px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     transition: 0.5s;
-    background-color: #81a140;
     font-size: 16px;
     font-weight: 500;
-    border: 2px solid black;
     border-radius: 0.5rem;
     padding: 7px;
+    background-color: #292721;
+    color: white;
+    font-weight: 500;
   }
   .status:hover {
-    background-color: #617b30;
+    background-color: #29272180;
     cursor: pointer;
   }
 </style>

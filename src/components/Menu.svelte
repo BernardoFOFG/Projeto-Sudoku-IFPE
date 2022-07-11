@@ -1,6 +1,5 @@
 <!-- Script -->
 <script>
-  import { status } from "../../scripts/Status.js";
   import { statusPage } from "../../scripts/Status.js";
 </script>
 
