@@ -4,22 +4,23 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background-color: gainsboro;
 }
 .menu img {
   width: 150px;
   height: 150px;
 }
 .menu h1 {
-  font-size: 72px;
-  font-family: 'Karantina', cursive !important;
+  font-size: 76px;
+  font-family: "Karantina", cursive !important;
   text-align: center;
+  letter-spacing: 2px;
 }
 .box {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: #292721c2;
   width: 800px;
   height: 500px;
   padding: 1.5rem;
@@ -27,6 +28,7 @@
   gap: 2rem;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
+  background-color: white;
 }
 #logos {
   display: flex;
@@ -59,6 +61,36 @@
   gap: 7px;
 }
 .status:hover {
-  background-color: #617b30;
+  background-color: #29272180;
   cursor: pointer;
+}
+@media (min-width: 320px) {
+  @media (max-width: 767px) {
+    .box {
+      height: 100vh;
+      width: 100vw;
+      padding: 0;
+    }
+    #logos {
+      gap: 0.5rem;
+    }
+    .buttons {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 435px) {
+  .buttons {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  @media (max-width: 1023px) {
+    .box {
+      width: 600px;
+      height: 400px;
+    }
+  }
 }

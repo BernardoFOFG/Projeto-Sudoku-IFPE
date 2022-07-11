@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 700px;
+  background-color: gainsboro;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 1rem;
+}
+.box h1 {
+  font-size: 56px;
+  font-family: "Karantina", cursive !important;
+}
+.box p {
+  font-family: "Karantina", cursive !important;
+  font-size: 26px;
+}
+.niveis {
+  display: flex;
+  gap: 7px;
+}
+.niveis p {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
+}
+.box__niveis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background-color: #292721;
+  width: 75px;
+  height: 35px;
+  border-radius: 1rem;
+  color: white;
+}
+.box__niveis:hover {
+  background-color: #29272180;
+  cursor: pointer;
+}
