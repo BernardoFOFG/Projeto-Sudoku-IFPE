@@ -1,7 +1,7 @@
 ## Aplicação de Sudoku realizada pelos estudantes do Instituto Federal de Pernambuco para apresentação da Demo Week 2022.1
 
 ## Alunos envolvidos:
-   <h4><a href="https://www.github.com/bernardofofg">Bernardo Filipe<h4></a>
+   <h4><a href="https://www.github.com/bernardofofg" target="_blank">Bernardo Filipe<h4></a>
     <h4><a href="https://github.com/CarolayneMR">Carolayne Russel</h4></a>
     <h4><a href="https://github.com/KallyVSS">Kallyanne Vitória</h4></a>
 
